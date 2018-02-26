@@ -52,9 +52,7 @@ float radius[MAX_NATOMS];
 float vdw_rad[MAX_NATOMS], vdw_eps[MAX_NATOMS];
 long NBONH, IBH[MAX_NATOMS], JBH[MAX_NATOMS];
 long NBONA, IB[MAX_NATOMS], JB[MAX_NATOMS];
-
 long f1[MAX_FACETS],f2[MAX_FACETS],f3[MAX_FACETS];
-
                
 /*------------------ READING FUNCTIONS -------------------*/
 void read_namd_binary(char*, unsigned long, double* ,double* ,double*);

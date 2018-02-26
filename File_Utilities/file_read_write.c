@@ -55,8 +55,6 @@ void center(void)
 
 }
 
-
-
 void remove_bad_wat(long start, float zcen, float z_width, float margin)
 {
   long i,j,c;
