@@ -7,8 +7,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "../lib/file_read_write.h"
-#include "../lib/file_read_write.c"
+#include "../File_Utilities/file_read_write.h"
+#include "../File_Utilities/file_read_write.c"
 
 char at_type[1000][3];
 float VDW_RAD[1000];

@@ -46,8 +46,9 @@ float  occupancy2[MAX_NATOMS],tempFactor2[MAX_NATOMS];
 long NRES, NRES2, RESIDUE_POINTER[MAX_NRES];
 char RESIDUE_LABEL[MAX_NRES][5];
 float charge[MAX_NATOMS], mass[MAX_NATOMS];
-char Type[MAX_NATOMS][5], element[MAX_NATOMS][3];
+char Type[MAX_NATOMS][5], Element[MAX_NATOMS][3];
 float radius[MAX_NATOMS];
+
 float vdw_rad[MAX_NATOMS], vdw_eps[MAX_NATOMS];
 long NBONH, IBH[MAX_NATOMS], JBH[MAX_NATOMS];
 long NBONA, IB[MAX_NATOMS], JB[MAX_NATOMS];
@@ -101,7 +102,7 @@ void add_wat(double,double,double);
 void convert_amb_types_to_radii(void);
 /* Uses a Table of msms radii */
 void wrap_names(void); // Wrap 4-character at_names
-void mass2element(void); // Convert mass to atomic symbol
+void mass_to_element(void); // Convert mass to atomic symbol
 
 /*------------------ CHECK BONDS --------------------*/
 /* Finds and prints out long bonds */

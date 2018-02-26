@@ -1,4 +1,35 @@
 
+void mass_to_element(void)
+{
+  long int i;
+  for(i=0;i<N;i++)
+    {
+      if((int)nearbyint(mass[i])==1)
+	{strncpy(Element[i],"H",1);continue;}  
+      if((int)nearbyint(mass[i])==12)
+	{strncpy(Element[i],"C",1);continue;}      
+      if((int)nearbyint(mass[i])==14)
+	{strncpy(Element[i],"N",1);continue;}       
+      if((int)nearbyint(mass[i])==16)
+	{strncpy(Element[i],"O",1);continue;}   
+       if((int)nearbyint(mass[i])==23)
+	{strncpy(Element[i],"NA",2);continue;}    
+      if((int)nearbyint(mass[i])==24)
+	{strncpy(Element[i],"MG",2);continue;}  
+      if((int)nearbyint(mass[i])==32)
+	{strncpy(Element[i],"S",1);continue;}  
+      if((mass[i]>54.99)&&(mass[i]<55.1)) 
+	{strncpy(Element[i],"FE",2);continue;}  
+      if((mass[i]>54.5)&&(mass[i]<55.0))
+	{strncpy(Element[i],"MN",2);continue;}  
+      if((int)nearbyint(mass[i])==35)
+	{strncpy(Element[i],"CL",2);continue;}  
+      if((int)nearbyint(mass[i])==65)
+	{strncpy(Element[i],"ZN",2);continue;} 
+      
+      printf("UNKNOWN ELEMENT #%li\n",i);   
+    }
+}
 
 void center(void)
 {
@@ -92,7 +123,7 @@ void read_gaulog(char *gaulog)
       for(i=0;i<strlen(line_buf);i++)
 	if(line_buf[i]!=' ')break;
  
-      if(!strncmp(&line_buf[i],"Standard orientation",20) | !strncmp(&line_buf[i],"Z-Matrix orientation",20))
+      if(!strncmp(&line_buf[i],"Standard orientation",20) |!strncmp(&line_buf[i],"Input orientation",17)  | !strncmp(&line_buf[i],"Z-Matrix orientation",20))
 	{
 	  
 	  fgets(line_buf,82,fp);
