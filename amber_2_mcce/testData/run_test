@@ -1,0 +1,3 @@
+#!/bin/bash
+
+../prmtop2mcce CLA.parm7 parm_photosynth.dat

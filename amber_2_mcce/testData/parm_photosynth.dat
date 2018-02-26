@@ -1,0 +1,775 @@
+PSII cofactors. AMBER FF PARAMETERS                         
+
+MASS
+mo      54.938     0.00 ; manganese in oec 
+m1      54.938     0.00 ; manganese in oec
+m2      54.938     0.00 ; manganese in oec
+m3      54.938     0.00 ; manganese in oec
+m4      54.938     0.00 ; manganese in oec
+ca      40.078     0.00 ; calcium in oec
+fn      55.000     0.00 ; non-heme iron (II)
+fh      55.000     0.00 ; heme iron 
+mx      24.305     0.00 ; chl magnesium
+nh      14.010     0.00
+ns      14.010     0.00
+nm      14.010     0.00
+hn       1.008     0.00
+ab      12.010     0.00
+sb      12.010     0.00
+bb      12.010     0.00
+cs      12.010     0.00
+tb      12.010     0.00
+pb      12.010     0.00
+qb      12.010     0.00
+rb      12.010     0.00
+zk      12.010     0.00
+za      12.010     0.00
+o1      16.000     0.00 
+o2      16.000     0.00 
+o3      16.000     0.00 ; oxygen in OEC
+o4      16.000     0.00 ; oxygen in OEC
+ze      12.010     0.00 ; C=O group, only in BChl
+t1      12.010     0.00
+t2      12.010     0.00
+t3      12.010     0.00
+q2      12.010     0.00
+qq      12.010     0.00
+qo      12.010     0.00
+k1      12.010     0.00 ;carotene
+k2      12.010     0.00 ;carotene
+k3      12.010     0.00 ;carotene
+k4      12.010     0.00 ;carotene
+k5      12.010     0.00 ;carotene
+hc       1.008     0.00
+ha       1.008     0.00
+
+NONB
+mo     1.69    0.014 ; from Concavalin A study, J. Chem. Soc.-Faraday Trans. 1998,94,1603
+m1     1.69    0.014 ; manganese in OEC
+m2     1.69    0.014 ; manganese in OEC
+m3     1.69    0.014 ; manganese in OEC
+m4     1.69    0.014 ; manganese in OEC
+ca     1.79    0.014 ; manganese in OEC
+fn     1.200   0.050
+fh     1.200   0.050
+mx     0.650   0.250 
+nh     1.824   0.170 
+ns     1.824   0.170 
+nm     1.824   0.170 
+hn     0.600   0.0157
+ab     1.908   0.086 
+sb     1.908   0.086 
+bb     1.908   0.086 
+cs     1.908   0.086 
+tb     1.908   0.086 
+pb     1.908   0.086 
+qb     1.908   0.086 
+rb     1.908   0.086 
+zk     1.908   0.086 
+za     1.908   0.086 
+o1     1.6637  0.170  
+o2     1.6612  0.210   
+o3     1.6637  0.170  ; oxygen in OEC
+o4     1.6637  0.170  ; oxygen in OEC
+ze     1.908   0.086 
+t1     1.908   0.1094
+t2     1.908   0.1094
+t3     1.908   0.1094
+q2     1.908   0.086 
+qq     1.908   0.086
+k1     1.908   0.086 ;carotene
+k2     1.908   0.086 ;carotene
+k3     1.908   0.086 ;carotene
+k4     1.908   0.086 ;carotene
+k5     1.908   0.086 ;carotene
+qo     1.908   0.086 ;plastoquinone
+hc     1.487   0.016 
+ha     1.459   0.015 
+
+BOND
+O    HO   553.00   0.969 ; BCTOEC
+CT   O    656.00   1.250 ; BCT  
+m1   o1   260.00   1.930 ; oec, length  from Sproviero QM/MM work 2009
+m1   o2   260.00   1.790 ; oec, length  from Sproviero QM/MM work 2009
+m1   o4   260.00   1.780 ; oec, length  from Sproviero QM/MM work 2009
+m2   o1   260.00   1.840 ; oec, length  from Sproviero QM/MM work 2009
+m2   o2   260.00   1.860 ; oec, length  from Sproviero QM/MM work 2009
+m2   o3   260.00   2.060 ; oec, length  from Sproviero QM/MM work 2009
+m3   o1   260.00   1.890 ; oec, length  from Sproviero QM/MM work 2009
+m3   o3   260.00   2.290 ; oec, length  from Sproviero QM/MM work 2009
+m3   o4   260.00   1.810 ; oec, length  from Sproviero QM/MM work 2009
+m4   o3   260.00   1.800 ; oec, length  from Sproviero QM/MM work 2009
+ca   o2   260.00   2.240 ; oec, length  from Sproviero QM/MM work 2009
+ca   o3   260.00   2.750 ; oec, length  from Sproviero QM/MM work 2009
+ca   o4   260.00   3.520 ; oec, length  from Sproviero QM/MM work 2009
+m2 - NB    40.00   2.010 ; oec-HIS length  from Sproviero QM/MM work 2009
+m2 - O2    40.00   1.900 ; oec-GLU length  from Sproviero QM/MM work 2009
+m3 - O     40.00   2.210 ; oec-GLH length  from Sproviero QM/MM work 2009
+m3 - O2    40.00   2.080 ; oec-GLH length  from Sproviero QM/MM work 2009 
+m4 - O2    40.00   1.930 ; oec-ASP length  from Sproviero QM/MM work 2009
+m1 - O2    40.00   1.830 ; oec-ASP length  from Sproviero QM/MM work 2009
+nm   fh    50.00   2.025 ; heme iron 
+ns   fh    50.00   2.025 ; heme iron
+fh   NB    60.00   2.010 ; heme iron - HIS
+NB   fn    50.00   2.000 ; non heme iron - HIS
+CT   fn    50.00   2.430 ; non heme iron - HIS     
+nm   mx    50.00   2.025 ; mx
+ns   mx    50.00   2.096
+nh   hn   494.00   1.026 ; pyrrole ring      
+nh   tb   316.00   1.375
+nh   rb   316.00   1.381
+nh   pb   316.00   1.394
+nh   qb   316.00   1.352
+nm   tb   316.00   1.375
+nm   rb   316.00   1.380
+nm   pb   316.00   1.393
+nm   qb   316.00   1.348 
+ns   rb   316.00   1.380 ; my Chl a - pyrrole ring C
+ns   tb   316.00   1.377 ; my Chl a - pyrrole ring C
+bb   t2   200.00   1.509 ; my Chl a - pyrrole ring C
+tb   bb   263.00   1.456
+rb   bb   263.00   1.439
+pb   bb   263.00   1.441
+qb   bb   283.00   1.421
+bb   bb   340.00   1.402
+bb   t3   200.00   1.497 
+bb   ze   190.00   1.479 ; C=O group, only in BCl 
+t3   ze   170.00   1.522 ; C=O group, only in BCl  
+ns   cs   296.00   1.362 ; saturated pyrrole ring  
+cs   t1   250.00   1.527
+t1   t1   250.00   1.552
+t1   t2   250.00   1.541
+t1   t3   250.00   1.541
+t1   hc   358.00   1.090
+zk   o2   700.00   1.226 ; isocyclic ring 
+zk   bb   263.00   1.455
+zk   t1   170.00   1.604
+sb   t1   250.00   1.525
+qb   sb   305.00   1.404
+tb   ab   350.00   1.404
+rb   ab   350.00   1.406
+pb   ab   350.00   1.407
+cs   ab   370.00   1.393
+cs   sb   370.00   1.390
+ab   ha   376.00   1.092
+za   o2   700.00   1.222 ; methyl acetate-like group (my parametrization)
+za   o1   380.00   1.363
+o1   t2   358.00   1.457
+o1   t3   358.00   1.457
+za   t1   250.00   1.522
+za   t2   250.00   1.522
+t2   t2   260.00   1.526 ; external group
+t2   t3   260.00   1.526
+t2   hc   358.00   1.090
+t3   hc   358.00   1.090 ;
+ze   o2   650.00   1.229 ; bacteriochlorophyll 
+q2   qq   510.0    1.343
+q2   t2   270.0    1.510
+q2   t3   270.0    1.510
+qq   t2   270.0    1.510
+qq   t3   270.0    1.510
+qq   ha   358.0    1.090
+q2   hc   358.0    1.090 ; my Chla
+qq   bb   270.0    1.510  
+q2   q2   510.0    1.353  ; quinone - DFT  
+qo   q2   270.0    1.490  ; quinone - DFT
+qo   o2   650.0    1.226  ; quinone - DFT
+k1   k2   510.0    1.370  ; carotene
+k3   k2   510.0    1.370  ; carotene
+k4   k5   510.0    1.370  ; carotene
+k4   k1   510.0    1.370  ; carotene
+k2   k2   270.0    1.450  ; carotene 
+k1   k3   510.0    1.450  ; carotene
+k2   k4   270.0    1.450  ; carotene 
+k2   k5   270.0    1.450  ; carotene 
+k1   t3   270.0    1.510  ; carotene
+k2   t1   270.0    1.540  ; LUT
+k1   t1   270.0    1.530  ; LUT
+k2   t2   270.0    1.510  ; LUT
+k4   ha   358.0    1.090
+k5   ha   358.0    1.090
+k2   ha   358.0    1.090
+k3   ha   358.0    1.090
+k1   t2   270.0    1.510
+t1   k4   260.0    1.540
+CA   qo   270.0    1.490  ; phylloquinone - DFT
+OG   t2   320.0    1.421  ; MGDG - B3P86
+t2   OS   320.0    1.410  JCC,7,(1986),230; NUCLEIC ACIDS
+t2   OH   320.0    1.410
+o1   t1   358.0    1.438  ; MGDG - B3P86
+qq   qq   510.0    1.343  ; MGDG - B3P86 
+mx   NB    30.0    2.550  ; Chl-His (2.18 actual + 0.37 out of plane)
+S    O2   620.0    1.44   ; K calculated from methyl sulphate (GLYCAM-2004-H) (eqm value from THEOCHEM 395/396 (1997) 107-122)
+
+
+ANGL
+OH-CT-O        80.0   113.6  ; BCT
+O -CT-O        80.0   132.7  ; BCT
+fn-CT-O        10.0    56.0  ; non-heme iron - HIS
+fn-CT-OH       10.0   123.0  ; non-heme iron - HIS
+CV-NB-fn       0.0     0.0   ; non-heme iron - HIS
+NB-fn-CT       0.0     0.0   ; non-heme iron - HIS
+CR-NB-fn       0.0     0.0   ; non-heme iron - HIS
+NB-fn-NB       0.0     0.0   ; non-heme iron - HIS
+NB-fh-ns       50.0    90.0  ; heme iron - HIS
+NB-fh-nm       50.0    90.0  ; heme iron - HIS
+CR-NB-fh       50.0   119.0  ; heme iron - HIS
+CV-NB-fh       50.0   126.5  ; heme iron - HIS
+NB-fh-NB       50.0   180.0  ; heme iron - HIS
+ns-mx-NB       20.0    90.0  ; Chl-His
+nm-mx-NB       20.0    90.0  ; Chl-His
+CR-NB-mx       20.0   121.5  ; Chl-His
+CV-NB-mx       20.0   121.5  ; Chl-His
+CC-NB-mx       20.0   121.5  ; Chl-His
+ca-o2-m1      100.0    126.77 ; oec, angle  from Sproviero QM/MM work 2009
+ca-o2-m2      100.0    108.97 ; oec, angle  from Sproviero QM/MM work 2009
+ca-o3-m2      100.0     86.69 ; oec, angle  from Sproviero QM/MM work 2009
+ca-o3-m3      100.0    104.99 ; oec, angle  from Sproviero QM/MM work 2009
+ca-o3-m4      100.0    120.88 ; oec, angle  from Sproviero QM/MM work 2009
+ca-o4-m1      100.0     78.16 ; oec, angle  from Sproviero QM/MM work 2009
+ca-o4-m3      100.0     91.86 ; oec, angle  from Sproviero QM/MM work 2009
+m1-o1-m2      100.0     93.44 ; oec, angle  from Sproviero QM/MM work 2009
+m1-o1-m3      100.0     92.40 ; oec, angle  from Sproviero QM/MM work 2009
+m1-o4-m3      100.0    100.51 ; oec, angle  from Sproviero QM/MM work 2009
+m1-o2-m2      100.0     97.35 ; oec, angle  from Sproviero QM/MM work 2009
+m2-o1-m3      100.0    101.44 ; oec, angle  from Sproviero QM/MM work 2009
+m2-o3-m3      100.0     83.03 ; oec, angle  from Sproviero QM/MM work 2009
+m2-o3-m4      100.0    127.60 ; oec, angle  from Sproviero QM/MM work 2009
+m3-o3-m4      100.0    123.38 ; oec, angle  from Sproviero QM/MM work 2009
+o1-m3-o4      100.0     83.16 ; oec, angle  from Sproviero QM/MM work 2009
+o1-m2-o2      100.0     84.17 ; oec, angle  from Sproviero QM/MM work 2009
+o1-m1-o4      100.0     82.98 ; oec, angle  from Sproviero QM/MM work 2009
+o1-m1-o2      100.0     83.65 ; oec, angle  from Sproviero QM/MM work 2009
+o2-ca-o4      100.0     50.29 ; oec, angle  from Sproviero QM/MM work 2009
+o2-m1-o4      100.0     98.91 ; oec, angle  from Sproviero QM/MM work 2009
+o3-m2-o2      100.0     87.73 ; oec, angle  from Sproviero QM/MM work 2009
+o3-m2-o1      100.0     91.79 ; oec, angle  from Sproviero QM/MM work 2009
+o3-ca-o4      100.0     60.11 ; oec, angle  from Sproviero QM/MM work 2009
+o3-ca-o2      100.0     65.09 ; oec, angle  from Sproviero QM/MM work 2009
+o3-m3-o4      100.0    102.75 ; oec, angle  from Sproviero QM/MM work 2009
+o3-m3-o1      100.0     83.62 ; oec, angle  from Sproviero QM/MM work 2009
+m2-NB-CR       20.0    112.95 ; oec, angle  from Sproviero QM/MM work 2009
+m2-NB-CV       20.0    136.34 ; oec, angle  from Sproviero QM/MM work 2009
+o2-m2-NB       20.0    143.85 ; oec, angle  from Sproviero QM/MM work 2009
+o1-m2-NB       20.0     91.56 ; oec, angle  from Sproviero QM/MM work 2009
+o3-m2-NB       20.0    128.35 ; oec, angle  from Sproviero QM/MM work 2009
+m2-O2-C        20.0    109.87 ; oec, angle  from Sproviero QM/MM work 2009 
+o2-m2-O2       20.0     90.44 ; oec, angle  from Sproviero QM/MM work 2009
+o1-m2-O2       20.0    170.95 ; oec, angle  from Sproviero QM/MM work 2009
+o3-m2-O2       20.0     95.26 ; oec, angle  from Sproviero QM/MM work 2009
+O2-m2-NB       20.0     88.51 ; oec, angle  from Sproviero QM/MM work 2009
+m3-O2 -C       20.0    134.92 ; oec, angle  from Sproviero QM/MM work 2009
+m3 -O -C       20.0    124.16 ; oec, angle  from Sproviero QM/MM work 2009
+o1-m3 -O       20.0    106.33 ; oec, angle  from Sproviero QM/MM work 2009
+o4-m3 -O       20.0     89.94 ; oec, angle  from Sproviero QM/MM work 2009
+o3-m3 -O       20.0    164.88 ; oec, angle  from Sproviero QM/MM work 2009
+o1-m3-O2       20.0     87.68 ; oec, angle  from Sproviero QM/MM work 2009
+o4-m3-O2       20.0    165.81 ; oec, angle  from Sproviero QM/MM work 2009
+o3-m3-O2       20.0     86.91 ; oec, angle  from Sproviero QM/MM work 2009
+m4-O2 -C       20.0    151.75 ; oec, angle  from Sproviero QM/MM work 2009
+o3-m4-O2       20.0    164.14 ; oec, angle  from Sproviero QM/MM work 2009
+m1-O2-C        20.0    158.56 ; oec, angle  from Sproviero QM/MM work 2009
+o2-m1-O2       20.0     99.62 ; oec, angle  from Sproviero QM/MM work 2009
+o1-m1-O2       20.0    169.29 ; oec, angle  from Sproviero QM/MM work 2009
+o4-m1-O2       20.0     86.43 ; oec, angle  from Sproviero QM/MM work 2009
+O2-m3- O       20.0     86.43 ; oec, angle  from Sproviero QM/MM work 2009
+nm-fh-ns       50.0     82.23 ; heme iron group start
+nm-fh-nm       50.0    178.9 ;
+ns-fh-ns       50.0    176.1 ;
+fh-nm-tb       70.0    125.7 ;
+fh-nm-pb       70.0    131.9 ;
+fh-nm-qb       70.0    122.4 ;
+fh-nm-rb       70.0    126.4 ;
+fh-ns-cs       70.0    124.9 ;
+fh-ns-rb       70.0    125.0 ; 
+fh-ns-tb       70.0    128.0 ; 
+fh-ns-rb       70.0    125.0 ; heme iron group end
+nm-mx-ns       50.0     90.0 ; chl magnesium group
+nm-mx-nm       50.0    178.9
+ns-mx-ns       50.0    176.1
+mx-nm-tb       70.0    125.7
+mx-nm-pb       70.0    131.9
+mx-nm-qb       70.0    122.4
+mx-nm-rb       70.0    126.4
+mx-ns-cs       70.0    124.9
+mx-ns-rb       70.0    125.0 ; my Chla
+mx-ns-tb       70.0    128.0 ; my Chla
+mx-ns-rb       70.0    125.0 ; my Chla
+tb-ns-rb      100.0    107.0 ; my Chla ; magnesium group end
+tb-nm-rb      100.0    107.7 ; pyrrole ring
+pb-nm-qb      100.0    105.7
+tb-nh-rb      100.0    111.4
+pb-nh-qb      100.0    109.4
+nm-tb-bb       70.0    109.5
+ns-tb-bb       70.0    109.5 ; my Chla
+nm-rb-bb       70.0    109.9
+ns-rb-bb       70.0    110.3 ; my Chla
+nm-pb-bb       70.0    110.6
+nm-qb-bb       70.0    111.9
+nh-tb-bb       70.0    106.2
+nh-rb-bb       70.0    107.3
+nh-pb-bb       70.0    108.3
+nh-qb-bb       70.0    108.0
+tb-bb-bb       63.0    107.1
+rb-bb-bb       63.0    106.9
+pb-bb-bb       63.0    105.0
+qb-bb-bb       63.0    108.0
+nm-tb-ab       70.0    126.0
+ns-tb-ab       70.0    124.8 ; my Chla
+nm-rb-ab       70.0    124.5
+ns-rb-ab       70.0    124.5 ; my Chla
+nm-pb-ab       70.0    121.8
+nh-tb-ab       70.0    128.3
+nh-rb-ab       70.0    125.3
+nh-pb-ab       70.0    121.7
+nm-qb-sb       70.0    133.6
+nh-qb-sb       70.0    137.7
+tb-nh-hn       30.0    126.9
+rb-nh-hn       30.0    122.3
+pb-nh-hn       30.0    120.1
+qb-nh-hn       30.0    130.4
+bb-bb-zk       63.0    143.1
+bb-bb-t3       63.0    129.0
+rb-bb-t3       63.0    123.5
+tb-bb-t3       63.0    123.5 ; heme
+pb-bb-t3       63.0    126.2 
+tb-bb-ze       63.0    124.4  ; C=O group, only in BCl 
+bb-bb-ze       63.0    128.5  ; C=O group, only in BCl 
+bb-tb-ab       63.0    125.0
+bb-rb-ab       63.0    126.5
+bb-pb-ab       63.0    128.4
+cs-ns-cs      120.0    109.7 ; saturated pyrrole ring
+ns-cs-t1       70.0    112.1
+cs-t1-t1       63.0    102.5
+tb-bb-bb       63.0    106.4 ; my Chla
+rb-bb-bb       63.0    106.5 ; my Chla
+ns-cs-ab       70.0    125.5
+ns-cs-sb       70.0    121.9
+tb-bb-t2       63.0    125.4 ; my Chla
+cs-t1-t2       63.0    112.1
+cs-t1-t3       63.0    112.1
+bb-bb-t2       63.0    128.2 ; my Chla
+t1-t1-t2       63.0    114.0
+t1-t2-t3       63.0    114.0 ; only in BCL
+t1-t1-t3       63.0    114.0
+t1-t2-t2       63.0    114.0
+bb-t2-t3       63.0    114.0 ; my Chla
+bb-t2-t2       63.0    114.0 ; my heme
+rb-bb-t2       63.0    128.2 ; my heme
+cs-t1-hc       35.0    109.5
+t1-t1-hc       35.0    109.5
+t1-t2-hc       35.0    109.5
+bb-t2-hc       35.0    109.5 ; my Chla 
+t2-t1-hc       35.0    109.5
+bb-zk-t1       63.0    105.4 ; isocyclic ring 
+bb-zk-o2       80.0    130.7
+t1-zk-o2       80.0    124.0
+zk-t1-sb       63.0    104.6
+qb-sb-t1       63.0    106.6
+qb-bb-zk       63.0    108.9
+t1-sb-cs       63.0    128.0
+zk-t1-za       63.0    111.0
+sb-t1-za       63.0    112.5
+sb-t1-hc       35.0    109.5
+zk-t1-hc       35.0    109.5
+sb-qb-bb       63.0    114.4
+tb-ab-cs       63.0    129.9 ; skeleton ring
+tb-ab-rb       63.0    129.9 ; my Chla
+tb-ab-pb       63.0    126.4 ; my Chla
+rb-ab-cs       63.0    125.1
+pb-ab-cs       63.0    123.3
+qb-sb-cs       63.0    125.4
+tb-ab-ha       25.0    116.8 ; my Chla
+rb-ab-ha       25.0    115.8
+pb-ab-ha       25.0    116.8 ; my Chla
+cs-ab-ha       25.0    116.5
+ab-cs-t1       63.0    122.0
+sb-cs-t1       63.0    126.2
+za-o1-t2       45.0    106.0 ; methyl acetate-like group
+za-o1-t3       45.0    106.0
+o1-za-t1       70.0    111.5
+o1-za-t2       70.0    111.5
+o2-za-t1       90.0    126.5
+o2-za-t2       90.0    126.5
+o2-za-o1      100.0    122.0
+za-t1-hc       35.0    109.5
+za-t2-hc       35.0    109.5
+o1-t2-hc       35.0    109.5
+o1-t3-hc       35.0    109.5
+za-t2-t2       63.0    116.6
+bb-t3-hc       35.0    109.5 ; external groups 
+bb-ze-o2       80.0    121.9 ; C=O group, only in BCl 
+bb-ze-t3       63.0    118.0 ; C=O group, only in BCl 
+t1-t3-t3       40.0    114.2
+t1-t3-hc       35.0    109.5
+t3-t1-hc       35.0    109.5 
+t3-ze-o2       80.0    122.4 ; C=O group, only in BCl 
+ze-t3-hc       35.0    109.5 ; C=O group, only in BCl 
+t2-t2-hc       35.0    109.5
+t2-t3-hc       35.0    109.5
+t3-t2-hc       35.0    109.5
+t3-t3-hc       35.0    109.5
+hc-t2-hc       35.0    109.5
+hc-t3-hc       35.0    109.5
+q2-t2-qq       50.0    112.0
+t2-t2-qq       50.0    112.0
+o1-t2-qq       50.0    109.6
+q2-qq-t2       50.0    125.9
+ha-qq-q2       34.0    117.1
+ha-qq-t2       34.0    117.1
+qq-q2-t2       50.0    120.2
+qq-q2-t3       50.0    123.7
+t2-q2-t3       50.0    116.0
+t3-q2-t3       50.0    116.0
+q2-t2-t2       50.0    114.5
+q2-t2-t3       50.0    114.5
+hc-t2-q2       35.0    109.5
+hc-t3-q2       35.0    109.5
+hc-t2-qq       35.0    109.5
+t2-t2-t2       58.0    109.5
+t2-t1-t3       58.0    111.5
+t2-t1-t2       58.0    111.5
+t3-t1-t2       58.0    111.5
+t3-t1-t3       58.0    111.5
+t3-t2-t2       58.0    109.5 ; NEW aliphatic chain ???
+q2-qq-bb       50.0    125.9 ; my Chla parameterization
+ha-qq-bb       35.0    117.0 ;
+hc-q2-qq       35.0    121.6 ;
+hc-q2-hc       35.0    116.8 ;
+tb-bb-qq       63.0    124.4 ;
+bb-bb-qq       63.0    128.5 ;
+q2-q2-q2       50.0    120.0 ; quinone temporary angle ???
+q2-q2-t3       50.0    122.8 ; my DFT quinone
+qo-q2-t3       50.0    116.7 ; my DFT quinone
+q2-q2-t2       50.0    123.8 ; my DFT quinone 
+qo-q2-t2       50.0    117.3 ; my DFT quinone
+q2-qo-q2       50.0    119.3 ; my DFT quinone
+qo-q2-q2       50.0    120.0 ; my DFT quinone
+o2-qo-q2       50.0    120.0 ; my DFT quinone
+hc-q2-q2       50.0    122.1 ; my DFT quinone
+hc-q2-qo       50.0    115.3 ; my DFT quinone        
+q2-qo-CA       50.0    119.3 ; my DFT phylloquinone 
+qo-CA-CA       50.0    120.7 ; my DFT phylloquinone 
+CA-qo-o2       50.0    120.7 ; my DFT phylloquinone 
+k2-k2-k3       50.0    123.4 ; carotene  
+k3-k1-k2       50.0    118.4 ; carotene
+k1-k3-k2       50.0    126.2 ; carotene
+k1-k2-k2       50.0    128.0 ; carotene
+k1-k2-k3       50.0    128.0 ; carotene
+k1-k2-k4       50.0    128.0 ; carotene
+k1-k2-k5       50.0    128.0 ; carotene
+k2-k3-k2       50.0    123.4 ; carotene
+k3-k1-t3       50.0    120.8 ; carotene
+k2-k1-t3       50.0    120.8 ; carotene
+k2-k4-k5       50.0    123.4 ; carotene
+k2-k4-k1       50.0    122.5 ; carotene
+k4-k1-t3       50.0    124.6 ; carotene
+k2-k5-k4       50.0    123.4 ; carotene
+hc-t3-k1       35.0    109.5 ; carotene 
+hc-t2-k1       35.0    109.5 ; carotene 
+k1-k2-ha       34.0    116.0 ; carotene       
+k2-k2-ha       34.0    116.0 ; carotene       
+k3-k2-ha       34.0    120.6 ; carotene
+k2-k3-ha       34.0    118.3 ; carotene
+k1-k3-ha       34.0    115.5 ; carotene
+k2-k4-ha       34.0    118.9 ; carotene
+k2-k5-ha       34.0    118.9 ; carotene
+k5-k4-ha       34.0    117.7 ; carotene
+k4-k5-ha       34.0    117.7 ; carotene
+k4-k2-ha       34.0    116.0 ; carotene
+k5-k2-ha       34.0    116.0 ; carotene
+k3-k2-k4       34.0    126.2 ; carotene
+t2-k1-t3       50.0    112.8 ; carotene
+t2-k1-k4       50.0    122.6 ; carotene
+k1-t2-t2       50.0    113.4 ; carotene
+k1-k4-t1       50.0    122.4 ; carotene
+k2-k4-t1       50.0    115.1 ; carotene
+k4-t1-t2       50.0    111.0 ; carotene
+k4-t1-t3       50.0    105.0 ; carotene
+k2-t1-hc       35.0    106.9 ; LUT
+t1-k2-k3       50.0    124.4 ; LUT   
+t1-k2-ha       34.0    116.0 ; LUT
+t1-k1-t3       50.0    116.6 ; LUT
+k1-t1-k2       50.0    111.2 ; LUT 
+k1-t1-hc       35.0    105.9 ; LUT
+k2-k1-t1       50.0    122.4 ; LUT
+k2-t2-OH       50.0    111.2 ; LUT
+k2-t2-hc       35.0    109.5 ; LUT
+t2-k2-k1       50.0    124.9 ; LUT
+t2-k2-ha       34.0    115.9 ; LUT
+t2-t2-k2       50.0    110.6 ; LUT
+t1-t1-k2       50.0    112.7 ; LUT
+t1-t1-k1       50.0    112.9 ; LUT
+t2-OS-P        100.0   120.5 ; from parm99.dat
+OS-t2-t1       50.00   109.5 ; MGDG - B3P86, FC from GYCAM_2000a
+OS-t2-hc       35.0    109.5 ; MGDG,  FC from GYCAM_2000a    
+EC-OG-t2       60.00   114.2 ; MGDG - B3P86, FC from GYCAM_2000a
+OG-t2-t1       50.00   105.7 ; MGDG - B3P86, FC from GYCAM_2000a
+OG-t2-t2       50.00   105.7 ; beta-DM - B3P86, FC from GYCAM_2000a
+OG-t2-hc       35.0    109.5 ; MGDG,  FC from GYCAM_2000a
+t2-t1-o1       50.00   112.4 ; MGDG - B3P86, FC from GYCAM_2000a
+t1-o1-za       45.0    119.3 ; MGDG - B3P86, FC from parmChl
+t1-t2-o1       58.0    107.5 ; MGDG - B3P86, FC = t2-t2-t2
+t2-t1-o1       58.0    112.7 ; MGDG - B3P86, FC = t2-t2-t2
+t2-t2-OH       50.0    109.50  (CT-CT-OH ff99)
+hc-t2-OH       50.0    109.50  (H1-CT-OH ff99)
+t2-OH-HO       55.0    109.50  
+o1-t1-hc       35      103.2 ; MGDG - B3P86, FC = t2-t2-t2
+qq-qq-t2       50.0    125.4 ; MGDG - B3P86, FC = q2-qq-t2
+qq-t2-qq       58.0    112.6 ; B3P86
+ha-qq-qq       34.0    118.9 ; MGDG - B3P86, FC = ha-qq-q2
+O2-S -O2      123.0    113.9 ; K calculated from methyl sulphate (GLYCAM2004-H), eqm value from THEOCHEM 395/396 (1997) 107-122 
+O2-S -CT      104.0    102.6 ; K calculated from methyl sulphate (GLYCAM2004-H), eqm value my DFT
+
+DIHE
+HO-O -C -OH   1           10.5         180.00           2. ; BCT
+HO-O -C -O    1           10.5         180.00           2. ; BCT
+X -mx-NB-X    1           0.00           0.00           2. ; Chl - HIS
+X -fn-NB-X    1           0.00           0.00           2. ; non-heme iron group
+X -fn-CT-X    1           0.00           0.00           2. ; non-heme iron group
+X -nm-fh-X    1           0.00           0.00           2. ; heme iron group
+X -NB-fh-X    1           0.00           0.00           2. ; heme - HIS   
+X -ns-fh-X    1           0.00         180.00           2.
+X -nm-mx-X    1           0.00           0.00           2. ; magnesium group
+X -ns-mx-X    1           0.00         180.00           2.
+X -nm-tb-X    1           2.50         180.00           2. ; pyrrole ring
+X -nm-rb-X    1           2.50         180.00           2.
+X -ns-rb-X    1           2.50         180.00           2. ; my Chla parameterization
+X -ns-tb-X    1           2.50         180.00           2. ; my Chla parameterization
+X -nm-pb-X    1           2.500        180.00           2.
+X -nm-qb-X    1           2.500        180.00           2.
+X -nh-tb-X    1           2.500        180.00           2.
+X -nh-rb-X    1           2.500        180.00           2.
+X -nh-pb-X    1           2.500        180.00           2.
+X -nh-qb-X    1           2.500        180.00           2.
+X -tb-bb-X    1           3.50         180.00           2.
+X -rb-bb-X    1           3.50         180.00           2.
+X -pb-bb-X    1           3.50         180.00           2.
+X -qb-bb-X    1           3.50         180.00           2.
+X -bb-bb-X    1           5.00         180.00           2.
+X -ns-cs-X    1           2.500        180.00           2. ; saturated pyrrole ring
+t1-t1-cs-X    1           1.575        180.00           2.
+hc-t1-cs-X    1           0.00         180.00           2.
+t2-t1-cs-X    1           0.00         180.00           2.
+t3-t1-cs-X    1           0.00         180.00           2.
+X -t1-t1-X    1           0.00         180.00           3.
+X -bb-zk-X    1           5.000        180.00           2. ; isocyclic ring
+sb-t1-zk-o2   1           1.575        180.00           2. 
+sb-t1-zk-bb   1           1.575        180.00           2. 
+hc-t1-zk-o2   1           0.000        180.00           2. 
+hc-t1-zk-bb   1           0.000        180.00           2. 
+za-t1-zk-o2   1           0.000        180.00           2. 
+za-t1-zk-bb   1           0.000        180.00           2. 
+zk-t1-sb-X    1           1.575        180.00           2.
+hc-t1-sb-X    1           0.000        180.00           2.
+za-t1-sb-X    1           0.000        180.00           2.
+X -ab-cs-X    1           3.500        180.00           2. ; skeleton ring 
+X -sb-cs-X    1           3.500        180.00           2. 
+X -ab-tb-X    1           3.500        180.00           2.  
+X -ab-rb-X    1           3.500        180.00           2. 
+X -ab-pb-X    1           3.500        180.00           2. 
+X -sb-qb-X    1           3.500        180.00           2.
+o2-za-o1-X    1           1.000        180.00          -1. ; methyl acetate-like group
+              1           6.000        180.00           2.
+t1-za-o1-X    1           1.500        180.00           2.
+t2-za-o1-X    1           1.500        180.00           2.
+o1-za-t2-X    1          -0.030        180.00           3.
+o2-za-t2-X    1           0.030        180.00           3.
+X -za-t1-X    1           0.000        180.00           3.
+X -o1-t2-X    1          -0.180        180.00           3.
+X -o1-t3-hc   1          -0.180        180.00           3.
+X -qq-bb-X    1           0.000        180.00           2. ; ? my Chla parameterization ?
+X -t2-q2-X    1           0.000        180.00           3. ; ? torsions, missing ?
+X -t2-qq-X    1           0.000        180.00           3. ; ? around double bond in phytyl chain ? 
+X -bb-ze-X    1           5.000        180.00           2. ; C=O group, only in BCl 
+X -bb-t3-X    1           0.000        180.00           2. ; external groups
+X -t1-t2-X    1          -0.156        180.00           3.
+X -bb-t2-X    1          -0.156        180.00           3. ; ? my Chla parameterization ?
+X -t1-t3-X    1          -0.156        180.00           3.
+X -t2-t2-X    1          -0.156        180.00           3.
+X -t2-t3-X    1          -0.156        180.00           3.
+X -t3-t3-X    1          -0.156        180.00           3. 
+X -ze-t3-X    1           0.000        180.00           2. ; C=O group, only in BCl 
+X -qq-q2-X    1           5.20         180.00           2.
+q2-qq-t2-X    1           0.333        180.00           3. 
+ha-qq-t2-X    1           0.104          0.00           3. 
+qq-q2-t2-X    1           0.333        180.00           3. 
+t3-q2-t2-X    1           0.020          0.00           3.   
+qq-q2-t3-hc   1           0.333        180.00           3. 
+t3-q2-t3-hc   1           0.020          0.00           3.   
+t2-q2-t3-hc   1           0.020          0.00           3.   
+qo-q2-t2-qq   1           0.000        180.00           2. ; plastoquinone ?
+q2-q2-t2-qq   1           0.000        180.00           2. ; plastoquinone ?
+X -q2-q2-X    1           5.300        180.00           2. ; plastoquinone ?
+X -q2-qo-X    1           0.300        180.00           2. ; plastoquinone ?
+q2-q2-t3-hc   1           0.333        180.00           3. ; plastoquinone ?
+qo-q2-t3-hc   1           0.333        180.00           3. ; plastoquinone ?
+X -k1-k2-X    1           5.200        180.00           2. ; carotene 
+X -k1-k3-X    1           5.200        180.00           2. ; carotene 
+X -k2-k3-X    1           5.200        180.00           2. ; carotene 
+X -k2-k2-X    1           5.200        180.00           2. ; carotene  loadamberparams ./parmCofact/parmPSII.dat
+X -k4-k5-X    1           5.200        180.00           2. ; carotene 
+X -k2-k5-X    1           5.200        180.00           2. ; carotene 
+X -k1-k4-X    1           5.200        180.00           2. ; carotene 
+k2-k1-t3-hc   1           0.333        180.00           3. ; carotene  
+k3-k1-t3-hc   1          -0.160        180.00           3. ; carotene  
+k2-k1-t3-hc   1           0.333        180.00           3. ; carotene  
+k4-k1-t3-hc   1          -0.160        180.00           3. ; carotene 
+t2-k1-t3-hc   1          -0.160        180.00           3. ; carotene 
+k4-k1-t2-t2   1           1.1          180.00           2. ; carotene    
+X -t1-k4-X    1           0.3          180.00           2. ; carotene 
+X -t2-k1-X    1           0.0          180.00           2. ; carotene
+X -k2-k4-X    1           4.000        180.00           2. ; carotene BP86
+;t1-k4-k2-k3   1           4.000         60.00           2. ; LUTEIN
+;k1-k4-k2-k3   1           4.000       -120.00           2. ; LUTEIN
+hc-t1-k2-ha   1           4.000        180.00           2. ; LUTEIN
+hc-t2-k2-ha   1           0.000        180.00           2. ; LUTEIN 
+hc-t2-OH-HO   1           0.000        180.00           2. ; LUTEIN 
+hc-t2-OH-HO   1           0.000        180.00           2. ; LUTEIN 
+OH-t2-k2-ha   1           0.000        180.00           2. ; LUTEIN
+t3-k1-t1-hc   1           0.000        180.00           2. ; LUTEIN 
+k3-k2-t1-hc   1           0.000        180.00           2. ; LUTEIN
+k2-t1-k1-t3   1           0.000        180.00           2. ; LUTEIN 
+t1-k1-t3-hc   1           0.000        180.00           2. ; LUTEIN 
+t1-k1-t3-hc   1           0.000        180.00           2. ; LUTEIN 
+t1-k1-t3-hc   1           0.000        180.00           2. ; LUTEIN 
+k1-t1-k2-k3   1           0.000        180.00           2. ; LUTEIN 
+k1-t1-k2-ha   1           0.000        180.00           2. ; LUTEIN 
+k1-k2-t2-OH   1           0.000        180.00           2. ; LUTEIN 
+k1-k2-t2-hc   1           0.000        180.00           2. ; LUTEIN 
+k2-k1-t1-k2   1           0.000        180.00           2. ; LUTEIN 
+k2-k1-t1-hc   1           0.000        180.00           2. ; LUTEIN 
+k2-t2-OH-HO   1           0.000        180.00           2. ; LUTEIN 
+t2-t2-k2-k1   1           0.000        180.00           2. ; LUTEIN 
+t2-t2-k2-ha   1           0.000        180.00           2. ; LUTEIN 
+t2-t2-OH-HO   1           0.000        180.00           2. ; LUTEIN 
+t1-t1-k2-k3   1           0.000        180.00           2. ; LUTEIN 
+t1-t1-k2-ha   1           0.000        180.00           2. ; LUTEIN
+t1-t1-k1-t3   1           0.000        180.00           2. ; LUTEIN 
+t1-t1-k1-k2   1           0.000        180.00           2. ; LUTEIN 
+t2-t2-OH-HO   1           0.000        180.00           2. ; LUTEIN 
+t2-t2-OH-HO   1           0.000        180.00           2. ; LUTEIN
+X -CA-qo-X    1           0.333        180.00           3. ; plastoquinone ?  
+t2-OG-EC-OS   1           0.85         144.06          -1. ; EXO-ANOMERIC GLYCAM
+              1           0.74         353.55          -2. ; EFFECT BETA
+              1           0.97           6.43           3. ; O-C-O-C
+CT-EC-OG-t2   1           0.00           0.00           3. ; EXO-ANOMERIC BETA 
+H2-EC-OG-t2   1           0.00           0.00           3. ; EXO-ANOMERIC BETA
+X -t2-OG-X    3           1.15           0.00           3. ; P94 X-CT-OS-X  
+X -o1-t1-X    1          -0.180        180.00           3.
+X -qq-qq-X    1           5.20         180.00           2. ; unsat aliph chain
+OS-P -OS-t2   1          0.25           0.0            -3. ; JCC,7,(1986),230
+OS-P -OS-t2   1          1.20           0.0             2. ; gg&gt ene.631g*/mp2
+X -t2-OS-X    3          1.15           0.0             3. ; JCC,7,(1986),230
+X -o1-m3-X    1          0.0            0.0             3. ;  OEC
+X -m1-o4-X    1          0.0            0.0             3. ;  OEC
+X -ca-o4-X    1          0.0            0.0             3. ;  OEC
+X -o1-m3- X   1          0.0            0.0             3. ;  OEC 
+X -o4-m3- X   1          0.0            0.0             3. ;  OEC
+X -o3-m3- X   1          0.0            0.0             3. ;  OEC 
+m1-o1-m3- O   1         10.0           95.0             3. ;  OEC   
+m1-o1-m3-O2   1         10.0          176.2             3. ;  OEC 
+m2-o1-m3- O   1         10.0         -171.0             3. ;  OEC   
+m2-o1-m3-O2   1         10.0          -89.8             3. ;  OEC 
+m1-o4-m3- O   1         10.0          114.0             3. ;  OEC   
+m1-o4-m3-O2   1         10.0          -57.8             3. ;  OEC   
+ca-o4-m3- O   1         10.0          167.5             3. ;  OEC   
+ca-o4-m3-O2   1         10.0         -136.1             3. ;  OEC   
+ca-o3-m3- 0   1         10.0         -141.0             3. ;  OEC   
+ca-o3-m3-02   1         10.0          175.0             3. ;  OEC   
+m2-o3-m3- 0   1         10.0          134.5             3. ;  OEC   
+m2-o3-m3-02   1         10.0           90.4             3. ;  OEC   
+m4-o3-m3- 0   1         10.0            3.5             3. ;  OEC   
+m4-o3-m3-02   1         10.0          -40.58            3. ;  OEC   
+X -ca-o3-X    1          0.0            0.0             3. ;  OEC
+X -o1-m1-X    1          0.0            0.0             3. ;  OEC
+X -o2-m2-X    1          0.0            0.0             3. ;  OEC
+X -o2-m1-X    1          0.0            0.0             3. ;  OEC
+X -o2-ca-X    1          0.0            0.0             3. ;  OEC
+X -m2-o3-X    1          0.0            0.0             3. ;  OEC
+X -m2-o1-X    1          0.0            0.0             3. ;  OEC
+X -m2-o4-X    1          0.0            0.0             3. ;  OEC
+X -o2-m3-X    1          0.0            0.0             3. ;  OEC
+X -o1-ca-X    1          0.0            0.0             3. ;  OEC
+X -m1-m4-X    1          0.0            0.0             3. ;  OEC
+o4-m3-o1-m1   1         10.0            0.0             2. ;  OEC
+m3-o1-m1-o4   1         10.0            0.0             2. ;  OEC
+o1-m1-o4-m3   1         10.0            0.0             2. ;  OEC
+m1-o4-m3-o1   1         10.0            0.0             2. ;  OEC
+O2-C-O2-m4    1          0.0            0.0             3. ;  OEC
+C-O2-m4-o3    1          0.0            0.0             3. ;  OEC
+CT-C-O2-m4    1          0.0            0.0             3. ;  OEC
+O2-m2-NB-CR   1          0.0            0.0             3. ;  OEC
+O2-m2-NB-CV   1          0.0            0.0             3. ;  OEC
+O2-m2-O2-C    1          0.0            0.0             3. ;  OEC
+O2-C-O2-m2    1          0.0            0.0             3. ;  OEC
+C-O2-m2-o1    1          0.0            0.0             3. ;  OEC
+C-O2-m2-o3    1          0.0            0.0             3. ;  OEC
+C-O2-m2-o2    1          0.0            0.0             3. ;  OEC
+C-O2-m2-NB    1          0.0            0.0             3. ;  OEC
+C-O2-m2-O2    1          0.0            0.0             3. ;  OEC
+CT-C-O2-m2    1          0.0            0.0             3. ;  OEC
+CV-NB-m2-o1   1          0.0            0.0             3. ;  OEC
+CV-NB-m2-o3   1          0.0            0.0             3. ;  OEC
+CV-NB-m2-o2   1          0.0            0.0             3. ;  OEC
+NB-m2-O2-C    1          0.0            0.0             3. ;  OEC
+CR-NB-m2-o1   1          0.0            0.0             3. ;  OEC
+CR-NB-m2-o3   1          0.0            0.0             3. ;  OEC
+CR-NB-m2-o2   1          0.0            0.0             3. ;  OEC
+O2-C-O2-m3    1          0.0            0.0             3. ;  OEC
+O2-C-O2-m2    1          0.0            0.0             3. ;  OEC
+O2-m3-O-C     1          0.0            0.0             3. ;  OEC
+C-O2-m3-o1    1          0.0            0.0             3. ;  OEC
+C-O2-m3-o3    1          0.0            0.0             3. ;  OEC
+C-O2-m3-o4    1          0.0            0.0             3. ;  OEC
+C-O2-m3-O     1          0.0            0.0             3. ;  OEC
+C-O2-m2-o1    1          0.0            0.0             3. ;  OEC
+C-O2-m2-o3    1          0.0            0.0             3. ;  OEC
+C-O2-m2-o2    1          0.0            0.0             3. ;  OEC
+CT-C-O2-m3    1          0.0            0.0             3. ;  OEC
+CT-C-O2-m2    1          0.0            0.0             3. ;  OEC
+O2-C-O2-m1    1          0.0            0.0             3. ;  OEC
+C-O2-m1-o1    1          0.0            0.0             3. ;  OEC
+C-O2-m1-o2    1          0.0            0.0             3. ;  OEC
+C-O2-m1-o4    1          0.0            0.0             3. ;  OEC
+CT-C-O2-m1    1          0.0            0.0             3. ;  OEC
+C-O-m3-o1     1          0.0            0.0             3. ;  OEC
+C-O-m3-o3     1          0.0            0.0             3. ;  OEC
+C-O-m3-o4     1          0.0            0.0             3. ;  OEC
+O2-m3-O2-C    1          0.0            0.0             3. ;  OEC
+X -m4-o3-X    1          0.0            0.0             3. ;  OEC
+IMPR
+X -X -ns-mx   1           1.100         180.0           2. ; my Chla parameterization   
+X -X -nm-mx   1           1.100         180.0           2.   
+X -X -nh-hn   1           1.100         180.0           2.     
+X -X -ab-ha   1           1.100         180.0           2.    
+qb-t1-sb-cs   1           1.100         180.0           2.     
+X -bb-bb-X    1           1.100         180.0           2.     
+ns-t1-cs-X    1           1.100         180.0           2.     
+X -X -tb-ab   1           1.100         180.0           2.     
+X -X -rb-ab   1           1.100         180.0           2.     
+X -X -pb-ab   1           1.100         180.0           2.     
+X -X -qb-sb   1           1.100         180.0           2.     
+X -X -zk-o2   1          10.500         180.0           2.     
+X -o2-za-o1   1          10.500         180.0           2. ; methyl acetate 
+X -X -ze-o2   1          10.500         180.0           2. ; C=O group, only in BCl    
+X -X -qq-ha   1           1.1           180.0           2.  
+t2-qq-t3-q2   1           1.1           180.0           2.     
+t3-qq-t3-q2   1           1.1           180.0           2. ; if phytyl tail cut
+hc-qq-q2-hc   1           1.1           180.0           2. ; my Chla parameterization  
+X -X -k2-ha   1           1.1           180.0           2. ; carotenoid
+X -X -k3-ha   1           1.1           180.0           2. ; carotenoid
+X -X -k4-ha   1           1.1           180.0           2. ; carotenoid
+X -X -k5-ha   1           1.1           180.0           2. ; carotenoid
+X -X -k1-t3   1           1.1           180.0           2. ; carotenoid   
+q2-qo-q2-t3   1           1.1           180.0           2. ; plastoquinone  
+q2-qo-q2-hc   1           1.1           180.0           2. ; plastoquinone  
+q2-qo-q2-t2   1           1.1           180.0           2. ; plastoquinone  
+X -q2-qo-o2   1           1.1           180.0           2. ; phyllo & plasto quinones  
+O -O -CT-OH   1           1.500         180.0           2. ; bicarbonate   
+o4-o3-ca-o2   1           1.500         77.95           2. ; OEC   
+o2-o4-ca-o3   1           1.500         58.54           2. ; OEC   
+o3-o2-ca-o4   1           1.500         75.68           2. ; OEC   
+X -X -o1-m3   1           1.500          90.0           2. ; OEC   
+X -X -o1-m2   1           1.500          90.0           2. ; OEC   
+X -X -o1-m1   1           1.500          90.0           2. ; OEC   

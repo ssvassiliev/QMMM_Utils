@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gcc prmtop2mcce.c -lm -o prmtop2mcce
