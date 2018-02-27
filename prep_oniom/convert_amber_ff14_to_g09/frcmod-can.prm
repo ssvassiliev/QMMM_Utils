@@ -1,0 +1,151 @@
+!
+! Vanderwaals parameters
+!
+VDW  t1     1.908      0.1094    
+VDW  t2     1.908      0.1094    
+VDW  t3     1.908      0.1094    
+VDW  k1     1.908      0.086     
+VDW  k2     1.908      0.086     
+VDW  e1     1.908      0.086     
+VDW  e2     1.908      0.086     
+VDW  k3     1.908      0.086     
+VDW  k4     1.908      0.086     
+VDW  k5     1.908      0.086     
+!
+! Stretches
+!
+HrmStr1  t1     t1   250.00     1.552     
+HrmStr1  t1     t2   250.00     1.541     
+HrmStr1  t1     t3   250.00     1.541     
+HrmStr1  t1     hc   358.00     1.090     
+HrmStr1  k3     o2   700.00     1.227     
+HrmStr1  k3     t2   250.00     1.516     
+HrmStr1  t2     t2   260.00     1.526     
+HrmStr1  t2     t3   260.00     1.526     
+HrmStr1  t2     hc   358.00     1.090     
+HrmStr1  t3     hc   358.00     1.090     
+HrmStr1  k1     k2   510.0      1.370     
+HrmStr1  e1     e2   510.0      1.520     
+HrmStr1  k3     k2   510.0      1.370     
+HrmStr1  k4     k5   510.0      1.370     
+HrmStr1  k4     k1   510.0      1.370     
+HrmStr1  k2     k2   270.0      1.450     
+HrmStr1  e2     k2   270.0      1.400     
+HrmStr1  k1     k3   510.0      1.450     
+HrmStr1  e1     k3   510.0      1.400     
+HrmStr1  k2     k4   270.0      1.450     
+HrmStr1  k2     k5   270.0      1.450     
+HrmStr1  k1     t3   270.0      1.510     
+HrmStr1  e1     t3   270.0      1.510     
+HrmStr1  k4     ha   358.0      1.090     
+HrmStr1  k5     ha   358.0      1.090     
+HrmStr1  k2     ha   358.0      1.090     
+HrmStr1  e2     ha   358.0      1.090     
+HrmStr1  k3     ha   358.0      1.090     
+HrmStr1  k1     t2   270.0      1.510     
+HrmStr1  t1     k4   260.0      1.540     
+!
+! Bendings
+!
+HrmBnd1  t1     t2   t2   63.0     114.0     
+HrmBnd1  t1     t2   hc   35.0     109.5     
+HrmBnd1  t1     t3   hc   35.0     109.5     
+HrmBnd1  t2     t2   hc   35.0     109.5     
+HrmBnd1  t2     t3   hc   35.0     109.5     
+HrmBnd1  t3     t2   hc   35.0     109.5     
+HrmBnd1  t3     t3   hc   35.0     109.5     
+HrmBnd1  hc     t2   hc   35.0     109.5     
+HrmBnd1  hc     t3   hc   35.0     109.5     
+HrmBnd1  t2     t1   t2   58.0     111.5     
+HrmBnd1  t3     t1   t2   58.0     111.5     
+HrmBnd1  t3     t1   t3   58.0     111.5     
+HrmBnd1  k3     t2   hc   35.0     108.0     
+HrmBnd1  k3     t2   t2   50.0     111.0     
+HrmBnd1  k1     k3   t2   50.0     118.0     
+HrmBnd1  k1     k3   o2   50.0     121.0     
+HrmBnd1  k4     k1   k3   50.0     122.2     
+HrmBnd1  t2     k3   o2   50.0     120.4     
+HrmBnd1  k2     k2   k3   50.0     123.4     
+HrmBnd1  e2     k2   k3   50.0     123.4     
+HrmBnd1  k3     k1   k2   50.0     118.4     
+HrmBnd1  k3     e1   e2   50.0     118.4     
+HrmBnd1  k1     k3   k2   50.0     126.2     
+HrmBnd1  e1     k3   k2   50.0     126.2     
+HrmBnd1  k1     k2   k2   50.0     128.0     
+HrmBnd1  e1     e2   k2   50.0     128.0     
+HrmBnd1  k1     k2   k3   50.0     128.0     
+HrmBnd1  k1     k2   k4   50.0     128.0     
+HrmBnd1  k1     k2   k5   50.0     128.0     
+HrmBnd1  k2     k3   k2   50.0     123.4     
+HrmBnd1  k3     k1   t3   50.0     120.8     
+HrmBnd1  k3     e1   t3   50.0     120.8     
+HrmBnd1  k2     k1   t3   50.0     120.8     
+HrmBnd1  e2     e1   t3   50.0     120.8     
+HrmBnd1  k2     k4   k5   50.0     123.4     
+HrmBnd1  k2     k4   k1   50.0     122.5     
+HrmBnd1  k4     k1   t3   50.0     124.6     
+HrmBnd1  k2     k5   k4   50.0     123.4     
+HrmBnd1  hc     t3   k1   35.0     109.5     
+HrmBnd1  hc     t3   e1   35.0     109.5     
+HrmBnd1  hc     t2   k1   35.0     109.5     
+HrmBnd1  k1     k2   ha   34.0     116.0     
+HrmBnd1  e1     e2   ha   34.0     116.0     
+HrmBnd1  k2     k2   ha   34.0     116.0     
+HrmBnd1  e2     k2   ha   34.0     116.0     
+HrmBnd1  k2     e2   ha   34.0     116.0     
+HrmBnd1  k3     k2   ha   34.0     120.6     
+HrmBnd1  k2     k3   ha   34.0     118.3     
+HrmBnd1  k1     k3   ha   34.0     115.5     
+HrmBnd1  e1     k3   ha   34.0     115.5     
+HrmBnd1  k2     k4   ha   34.0     118.9     
+HrmBnd1  k2     k5   ha   34.0     118.9     
+HrmBnd1  k5     k4   ha   34.0     117.7     
+HrmBnd1  k4     k5   ha   34.0     117.7     
+HrmBnd1  k4     k2   ha   34.0     116.0     
+HrmBnd1  k5     k2   ha   34.0     116.0     
+HrmBnd1  k3     k2   k4   34.0     126.2     
+HrmBnd1  t2     k1   t3   50.0     112.8     
+HrmBnd1  t2     k1   k4   50.0     122.6     
+HrmBnd1  k1     t2   t2   50.0     113.4     
+HrmBnd1  k1     k4   t1   50.0     122.4     
+HrmBnd1  k2     k4   t1   50.0     115.1     
+HrmBnd1  k4     t1   t2   50.0     111.0     
+HrmBnd1  k4     t1   t3   50.0     105.0     
+!
+!Torsions
+!
+AmbTrs *  t1 t2 *      0    0    0    0   0.000  0.000  1.404  0.000 9.0
+AmbTrs *  t1 t3 *      0    0    0    0   0.000  0.000  1.404  0.000 9.0
+AmbTrs *  t2 t2 *      0    0    0    0   0.000  0.000  1.404  0.000 9.0
+AmbTrs *  t2 t3 *      0    0    0    0   0.000  0.000  1.404  0.000 9.0
+AmbTrs *  t3 t3 *      0    0    0    0   0.000  0.000  1.404  0.000 9.0
+AmbTrs *  k1 k2 *      0  180    0    0   0.000 20.800  0.000  0.000 4.0
+AmbTrs *  k1 k3 *      0  180    0    0   0.000 20.800  0.000  0.000 4.0
+AmbTrs *  k2 k3 *      0  180    0    0   0.000 20.800  0.000  0.000 4.0
+AmbTrs *  k2 k2 *      0  180    0    0   0.000 20.800  0.000  0.000 4.0
+AmbTrs *  k4 k5 *      0  180    0    0   0.000 20.800  0.000  0.000 4.0
+AmbTrs *  k2 k5 *      0  180    0    0   0.000 20.800  0.000  0.000 4.0
+AmbTrs *  k1 k4 *      0  180    0    0   0.000 20.800  0.000  0.000 4.0
+AmbTrs k1 k2 k4 k5     0  180    0    0   0.000  5.200  0.000  0.000 1.0
+AmbTrs ha k2 k4 ha     0  180    0    0   0.000  5.200  0.000  0.000 1.0
+AmbTrs ha k2 k4 k5     0  180    0    0   0.000  5.200  0.000  0.000 1.0
+AmbTrs k1 k2 k4 ha     0  180    0    0   0.000  5.200  0.000  0.000 1.0
+AmbTrs k1 k4 k2 ha     0  180    0    0   0.000  1.600  0.000  0.000 1.0
+AmbTrs t1 k4 k2 ha     0  180    0    0   0.000  1.600  0.000  0.000 1.0
+AmbTrs k1 k4 k2 k3     0  180    0    0   0.000  1.600  0.000  0.000 1.0
+AmbTrs t1 k4 k2 k3     0  180    0    0   0.000  1.600  0.000  0.000 1.0
+AmbTrs k2 k1 t3 hc     0    0  180    0   0.000  0.000  0.160  0.000 1.0
+AmbTrs k3 k1 t3 hc     0    0    0    0   0.000  0.000  0.160  0.000 1.0
+AmbTrs k4 k1 t3 hc     0    0  180    0   0.000  0.000  0.160  0.000 1.0
+AmbTrs k4 k1 k3 t2     0  180    0    0   0.000  1.100  0.000  0.000 1.0
+AmbTrs t3 t1 k4 *      0    0    0    0   0.000  0.000  0.320  0.000 2.0
+AmbTrs o2 k3 k1 t3     0  180    0    0   0.000  5.000  0.000  0.000 1.0
+AmbTrs o2 k3 k1 k4     0  180    0    0   0.000  5.000  0.000  0.000 1.0
+AmbTrs o2 k3 t2 hc     0    0    0    0   0.000  0.000  0.160  0.000 1.0
+AmbTrs o2 k3 t2 t2     0    0  180    0   0.000  0.000  0.160  0.000 1.0
+AmbTrs k1 k3 t2 hc     0    0    0    0   0.000  0.000  0.160  0.000 1.0
+!
+! Improper torsions
+!
+ImpTrs  *      *    k1   t3      1.1    180.0      1.0
+ImpTrs  *      *    k3   o2      1.1    180.0      1.0

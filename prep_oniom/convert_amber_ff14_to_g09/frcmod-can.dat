@@ -1,0 +1,167 @@
+Canthaxanthin. AMBER FF PARAMETERS                         
+
+MASS
+o2      16.000     0.00 
+t1      12.010     0.00
+t2      12.010     0.00
+t3      12.010     0.00
+k1      12.010     0.00 ;carotene
+k2      12.010     0.00 ;carotene
+e1      12.010     0.00 ;excited carotene
+e2      12.010     0.00 ;excited carotene
+k3      12.010     0.00 ;carotene
+k4      12.010     0.00 ;carotene
+k5      12.010     0.00 ;carotene
+hc       1.008     0.00
+ha       1.008     0.00
+
+NONB
+o2     1.6612  0.210   
+t1     1.908   0.1094
+t2     1.908   0.1094
+t3     1.908   0.1094
+k1     1.908   0.086 ;carotene
+k2     1.908   0.086 ;carotene
+e1     1.908   0.086 ;excited carotene
+e2     1.908   0.086 ;excited carotene
+k3     1.908   0.086 ;carotene
+k4     1.908   0.086 ;carotene
+k5     1.908   0.086 ;carotene
+hc     1.487   0.016 
+ha     1.459   0.015 
+
+BOND
+t1   t1   250.00   1.552
+t1   t2   250.00   1.541
+t1   t3   250.00   1.541
+t1   hc   358.00   1.090
+k3   o2   700.00   1.227 ; canthaxanthin
+k3   t2   250.00   1.516 ; canthaxanthin
+t2   t2   260.00   1.526 ; external group
+t2   t3   260.00   1.526
+t2   hc   358.00   1.090
+t3   hc   358.00   1.090  ;
+k1   k2   510.0    1.370  ; carotene
+e1   e2   510.0    1.520  ; excited carotene
+k3   k2   510.0    1.370  ; carotene
+k4   k5   510.0    1.370  ; carotene
+k4   k1   510.0    1.370  ; carotene
+k2   k2   270.0    1.450  ; carotene 
+e2   k2   270.0    1.400  ; excited carotene 
+k1   k3   510.0    1.450  ; carotene
+e1   k3   510.0    1.400  ; excited carotene
+k2   k4   270.0    1.450  ; carotene 
+k2   k5   270.0    1.450  ; carotene 
+k1   t3   270.0    1.510  ; carotene
+e1   t3   270.0    1.510  ; excited carotene
+k4   ha   358.0    1.090
+k5   ha   358.0    1.090
+k2   ha   358.0    1.090
+e2   ha   358.0    1.090  ;excited carotene
+k3   ha   358.0    1.090
+k1   t2   270.0    1.510
+t1   k4   260.0    1.540
+
+ANGL
+t1-t2-t2       63.0    114.0
+t1-t2-hc       35.0    109.5
+t1-t3-hc       35.0    109.5
+t2-t2-hc       35.0    109.5
+t2-t3-hc       35.0    109.5
+t3-t2-hc       35.0    109.5
+t3-t3-hc       35.0    109.5
+hc-t2-hc       35.0    109.5
+hc-t3-hc       35.0    109.5
+t2-t1-t2       58.0    111.5
+t3-t1-t2       58.0    111.5
+t3-t1-t3       58.0    111.5
+t2-k3-o2       50.0    121.0 ; canthaxanthin
+k3-t2-hc       35.0    108.0 ; canthaxanthin
+k3-t2-t2       50.0    111.0 ; canthaxanthin
+k1-k3-t2       50.0    118.0 ; canthaxanthin
+k1-k3-o2       50.0    121.0 ; canthaxanthin
+k4-k1-k3       50.0    122.2 ; canthaxanthin
+t2-k3-o2       50.0    120.4 ; canthaxanthin
+k2-k2-k3       50.0    123.4 ; carotene  
+e2-k2-k3       50.0    123.4 ; excited carotene  
+k3-k1-k2       50.0    118.4 ; carotene
+k3-e1-e2       50.0    118.4 ; excited carotene
+k1-k3-k2       50.0    126.2 ; carotene
+e1-k3-k2       50.0    126.2 ; excited carotene
+k1-k2-k2       50.0    128.0 ; carotene
+e1-e2-k2       50.0    128.0 ; excited carotene
+k1-k2-k3       50.0    128.0 ; carotene
+k1-k2-k4       50.0    128.0 ; carotene
+k1-k2-k5       50.0    128.0 ; carotene
+k2-k3-k2       50.0    123.4 ; carotene
+k3-k1-t3       50.0    120.8 ; carotene
+k3-e1-t3       50.0    120.8 ; excited carotene
+k2-k1-t3       50.0    120.8 ; carotene
+e2-e1-t3       50.0    120.8 ; excited carotene
+k2-k4-k5       50.0    123.4 ; carotene
+k2-k4-k1       50.0    122.5 ; carotene
+k4-k1-t3       50.0    124.6 ; carotene
+k2-k5-k4       50.0    123.4 ; carotene
+hc-t3-k1       35.0    109.5 ; carotene 
+hc-t3-e1       35.0    109.5 ; excited carotene 
+hc-t2-k1       35.0    109.5 ; carotene 
+k1-k2-ha       34.0    116.0 ; carotene  
+e1-e2-ha       34.0    116.0 ; excited carotene     
+k2-k2-ha       34.0    116.0 ; carotene
+e2-k2-ha       34.0    116.0 ; excited carotene 
+k2-e2-ha       34.0    116.0 ; excited carotene   
+k3-k2-ha       34.0    120.6 ; carotene
+k2-k3-ha       34.0    118.3 ; carotene
+k1-k3-ha       34.0    115.5 ; carotene
+e1-k3-ha       34.0    115.5 ; excited carotene
+k2-k4-ha       34.0    118.9 ; carotene
+k2-k5-ha       34.0    118.9 ; carotene
+k5-k4-ha       34.0    117.7 ; carotene
+k4-k5-ha       34.0    117.7 ; carotene
+k4-k2-ha       34.0    116.0 ; carotene
+k5-k2-ha       34.0    116.0 ; carotene
+k3-k2-k4       34.0    126.2 ; carotene
+t2-k1-t3       50.0    112.8 ; carotene
+t2-k1-k4       50.0    122.6 ; carotene
+k1-t2-t2       50.0    113.4 ; carotene
+k1-k4-t1       50.0    122.4 ; carotene
+k2-k4-t1       50.0    115.1 ; carotene
+k4-t1-t2       50.0    111.0 ; carotene
+k4-t1-t3       50.0    105.0 ; carotene
+
+DIHE
+X -t1-t2-X    9           1.404          0.00           3.
+X -t1-t3-X    9           1.404          0.00           3.
+X -t2-t2-X    9           1.404          0.00           3.
+X -t2-t3-X    9           1.404          0.00           3.
+X -t3-t3-X    9           1.404          0.00           3. 
+X -k1-k2-X    4          20.800        180.00           2. ; carotene
+X -k1-k3-X    4          20.800        180.00           2. ; carotene 
+X -k2-k3-X    4          20.800        180.00           2. ; carotene 
+X -k2-k2-X    4          20.800        180.00           2. ; carotene  
+X -k4-k5-X    4          20.800        180.00           2. ; carotene 
+X -k2-k5-X    4          20.800        180.00           2. ; carotene 
+X -k1-k4-X    4          20.800        180.00           2. ; carotene 
+k1-k2-k4-k5   1           5.200        180.00           2. ; polyene
+ha-k2-k4-ha   1           5.200        180.00           2. ; polyene
+ha-k2-k4-k5   1           5.200        180.00           2. ; polyene
+k1-k2-k4-ha   1           5.200        180.00           2. ; polyene
+k1-k4-k2-ha   1           1.600        180.00           2. ; head
+t1-k4-k2-ha   1           1.600        180.00           2. ; head
+k1-k4-k2-k3   1           1.600        180.00           2. ; head
+t1-k4-k2-k3   1           1.600        180.00           2. ; head
+k2-k1-t3-hc   1           0.160        180.00           3. ; carotene  
+k3-k1-t3-hc   1           0.160          0.00           3. ; carotene    
+k4-k1-t3-hc   1           0.160        180.00           3. ; carotene  
+k4-k1-k3-t2   1           1.100        180.00           2. ; carotene    
+t3-t1-k4-X    2           0.320          0.00           3.
+o2-k3-k1-t3   1           5.000        180.00           2. ; canthaxanthin 
+o2-k3-k1-k4   1           5.000        180.00           2. ; canthaxanthin
+o2-k3-t2-hc   1           0.160          0.00           3. ; canthaxanthin
+o2-k3-t2-t2   1           0.160        180.00           3. ; canthaxanthin
+k1-k3-t2-hc   1           0.160           0.0           3. ; canthaxanthin
+k1-k3-t2-t2   1           0.160         180.0           3. ; canthaxanthin
+
+IMPR
+X -X -k1-t3   1           1.1           180.0           2. ; carotenoid   
+X -X -k3-o2   1           1.1           180.0           2. ; canthaxanthin
