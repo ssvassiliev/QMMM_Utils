@@ -1,7 +1,6 @@
-%mem=2GB
-%nproc=2
-%Chk=oniom.chk
-#T ONIOM(PM3:Amber=softonly) Geom=Connectivity Opt=(QuadMac,CalcFC) 
+%mem=320MW
+%nproc=8
+#T ONIOM(HF/6-31G:Amber=softonly)=EmbedCharge Geom=Connectivity Opt
 
 Title Card
 
